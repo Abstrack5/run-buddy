@@ -155,9 +155,26 @@ footer a {
     align-items: center;
     justify-content: space-between;
 }
+.step-info {
+    display: flex;
+    flex: 2 70%;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.step-img {
+    flex: 1 12%;
+    margin-right: 20px;
+}
+.step-img img {
+    max-width: 100%;
+}
+.step-text {
+    flex: 12;
+}
 .step h3 {
     color: #024e76;
     font-size: 46px;
+    flex: 1 30%;
 }
 .step-text h4 {
     font-size: 26px;
